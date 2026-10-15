@@ -1,0 +1,26 @@
+# Build output
+build/
+*.exe
+*.obj
+*.lib
+*.pdb
+*.ilk
+
+# VS Code
+.vscode/settings.json
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Compiled
+*.idb
+*.exp
+*.pch
+*.tlog
+*.log
+*.lastbuildstate
+
+# Configs created at runtime at runtime
