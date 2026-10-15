@@ -67,6 +67,26 @@ Every push to `main` automatically builds all 8 executables on GitHub:
 
 You can also trigger a build manually: **Actions → Build → Run workflow**.
 
+## Releases
+
+Every versioned release ships the ready-to-run executables as release assets:
+
+1. Open the repository's **Releases** page
+2. Download the `.exe` you want from the latest release (all 8 UIs are attached)
+
+### Publishing a new release
+
+1. Move entries in `CHANGELOG.md` from **Unreleased** into a new version section (Added / Changed / Removed / Fixed / Improved) with today's date
+2. Commit and push to `main`
+3. Tag and push the tag, e.g. for version 1.0.1:
+
+```batch
+git tag v1.0.1
+git push origin v1.0.1
+```
+
+GitHub Actions then builds all 8 exes and publishes the GitHub Release automatically, using the matching `CHANGELOG.md` section as the release notes.
+
 ## Running
 
 Each executable is a standalone Windows application:
