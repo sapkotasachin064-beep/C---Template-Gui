@@ -28,7 +28,7 @@ jobs:
           $tag = "${{ github.ref_name }}"
           $version = $tag.TrimStart("v")
           $content = Get-Content CHANGELOG.md -Raw
-          $match = [regex]::Match($content, "(?ms)^## \[$([regex]::Escape($version))\].*?(?=^## \[|\z)")
+          $match = [regex]::Match($content, "(?ms)^## \[$([regex]::Escape($version))\].*?(?=^## \[|^\[|\z)")
           if (-not $match.Success) { throw "No CHANGELOG.md section found for version '$version'" }
           $match.Value.Trim() | Out-File -FilePath release-notes.md -Encoding utf8
 
