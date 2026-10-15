@@ -276,7 +276,7 @@ private:
     ComboPopup comboPopup_{};
 
     static LRESULT CALLBACK StaticWindowProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam);
-    LRESULT WindowProc(UINT message, WPARAM wParam, LPARAM lParam);
+    LRESULT WindowProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam);
 
     HRESULT CreateFactories();
     HRESULT CreateDeviceResources();
@@ -1544,7 +1544,7 @@ void App::DrawProfilePage()
     {
         const float listTop = 112.0f;
         const float rowHeight = 38.0f;
-        const float maxVisible = 7;
+        const int maxVisible = 7;
 
         for (int index = 0; index < static_cast<int>(configs_.size()); ++index)
         {
@@ -1589,7 +1589,7 @@ void App::DrawProfilePage()
             static_cast<float>(maxVisible) / static_cast<float>(totalItems));
         const float thumbHeight = std::max(20.0f, scrollbarHeight * visibleRatio);
 
-        const float maxScroll = std::max(0, totalItems - maxVisible);
+        const int maxScroll = std::max(0, totalItems - maxVisible);
         const float scrollRatio = maxScroll > 0
             ? static_cast<float>(configScrollIndex_) / static_cast<float>(maxScroll)
             : 0.0f;
