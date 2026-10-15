@@ -1,3 +1,6 @@
+// Original UI source: https://github.com/maotaw-cmd/c-
+// See the README Credits section - full credit to the original author.
+
 // SPECTRA UI REVISION 20 - WINDOWS TYPES / SDK COMPILE FIX
 // SOURCE MARKER: REV25_PREVIEW_REMOVED
 #pragma message("REV35_SLIDERS_CLEAN_CONFIG_ACTIVE - draggable desktop keybind and spectator windows")

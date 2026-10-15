@@ -2,7 +2,7 @@
 
 A collection of 8 standalone Direct2D / DirectWrite menu UI templates for Windows, written in C++17 with the Win32 API and packaged as a **Visual Studio 2022 solution**.
 
-The UI designs originate from the [maotaw-cmd/c-](https://github.com/maotaw-cmd/c-) repository.
+> **Credits & attribution:** All 8 UI source files in `src/` originate from the [**maotaw-cmd/c-**](https://github.com/maotaw-cmd/c-) repository. Full credit for the UI code goes to its original author. This project only adds the Visual Studio solution, build automation and packaging around that code and claims no ownership over it. See [Credits](#credits) below for details.
 
 ## Requirements
 
@@ -94,6 +94,13 @@ Each executable is a standalone Windows application:
 - Double-click the `.exe`
 - Press `Esc` to close a menu
 - Drag the top bar to move the window
+
+## Credits
+
+- **UI source code:** every `.cpp` file in `src/` comes from the [**maotaw-cmd/c-**](https://github.com/maotaw-cmd/c-) repository by [maotaw-cmd](https://github.com/maotaw-cmd). Full credit for the UI designs and their implementation belongs to the original author.
+- **This repository** provides the Visual Studio 2022 solution, GitHub Actions build/release automation, and documentation around that code. It claims no authorship or ownership of the original UI code.
+- Every source file also carries an attribution header pointing to the original repository.
+- If you are the original author and want additional credit, an attribution change, or removal of this code, please open an issue and it will be handled immediately.
 
 ## Notes
 

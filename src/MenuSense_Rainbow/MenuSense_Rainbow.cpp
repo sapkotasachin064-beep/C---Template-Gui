@@ -1,3 +1,6 @@
+// Original UI source: https://github.com/maotaw-cmd/c-
+// See the README Credits section - full credit to the original author.
+
 // ============================================================================
 // MenuSense-style Direct2D UI - single main.cpp
 //

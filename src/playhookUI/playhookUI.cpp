@@ -1,3 +1,6 @@
+// Original UI source: https://github.com/maotaw-cmd/c-
+// See the README Credits section - full credit to the original author.
+
 // Compact purple Direct2D menu UI demo - updated
 // Build in Visual Studio 2022 as a Windows Desktop application:
 //

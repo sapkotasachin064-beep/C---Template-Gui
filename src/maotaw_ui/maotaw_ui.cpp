@@ -1,3 +1,6 @@
+// Original UI source: https://github.com/maotaw-cmd/c-
+// See the README Credits section - full credit to the original author.
+
 // ============================================================================
 // Transparent black Direct2D menu inspired by the supplied reference.
 // Single-file C++17 / Win32 / Direct2D example.

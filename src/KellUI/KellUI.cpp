@@ -1,3 +1,6 @@
+// Original UI source: https://github.com/maotaw-cmd/c-
+// See the README Credits section - full credit to the original author.
+
 // ============================================================================
 // Dark Direct2D menu mockup - single-file C++17 / Win32 / Direct2D
 // Dark transparent full-width Direct2D menu UI with independent Aimbot/Visuals controls.

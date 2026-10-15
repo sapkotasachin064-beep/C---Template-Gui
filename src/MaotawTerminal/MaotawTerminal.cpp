@@ -1,3 +1,6 @@
+// Original UI source: https://github.com/maotaw-cmd/c-
+// See the README Credits section - full credit to the original author.
+
 // CustomTealTerminal.cpp
 // Single-file C++17 Win32 + Direct2D custom CMD terminal.
 // Build: Visual Studio x64, Unicode, Windows subsystem.

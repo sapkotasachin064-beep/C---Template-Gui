@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-10-15
+
+### Added
+
+- README **Credits & attribution** section with full credit to the original UI source, [maotaw-cmd/c-](https://github.com/maotaw-cmd/c-)
+- Attribution header comment at the top of every UI source file in `src/`
+
+### Changed
+
+- Attribution to the original repository is now stated clearly at the top of the README
+
 ## [1.0.0] - 2026-10-15
 
 ### Added
@@ -40,5 +51,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - All 8 UIs now compile and link cleanly as one `msbuild CppTemplateGui.sln` invocation
 - Sources are compiled with `/utf-8`, so special characters (— • ° ×) in the UI text render and compile correctly
 
-[Unreleased]: https://github.com/sapkotasachin064-beep/C---Template-Gui/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/sapkotasachin064-beep/C---Template-Gui/compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/sapkotasachin064-beep/C---Template-Gui/releases/tag/v1.0.1
 [1.0.0]: https://github.com/sapkotasachin064-beep/C---Template-Gui/releases/tag/v1.0.0
