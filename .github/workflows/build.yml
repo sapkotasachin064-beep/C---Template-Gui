@@ -1,0 +1,29 @@
+name: Build
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build Release x64
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup MSBuild
+        uses: microsoft/setup-msbuild@v2
+
+      - name: Build solution (Release | x64)
+        run: msbuild CppTemplateGui.sln /m /p:Configuration=Release /p:Platform=x64
+
+      - name: Upload executables
+        uses: actions/upload-artifact@v4
+        with:
+          name: CppTemplateGui-exe-x64
+          path: bin/x64/Release/*.exe
+          if-no-files-found: error

@@ -1,26 +1,26 @@
-# Build output
-build/
+# Build output (Visual Studio)
+bin/
+x64/
 *.exe
 *.obj
 *.lib
 *.pdb
 *.ilk
+*.idb
+*.exp
+*.pch
 
-# VS Code
-.vscode/settings.json
+# Visual Studio user files
+.vs/
+*.user
+
+# Build logs
+*.log
+*.tlog
+*.lastbuildstate
 
 # Windows
 Thumbs.db
 ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
-
-# Compiled
-*.idb
-*.exp
-*.pch
-*.tlog
-*.log
-*.lastbuildstate
-
-# Configs created at runtime at runtime

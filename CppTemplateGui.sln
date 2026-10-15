@@ -1,0 +1,63 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KellUI", "src\KellUI\KellUI.vcxproj", "{AF8146E4-A35A-4B8C-9C52-EA2EECA62C08}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MaotawTerminal", "src\MaotawTerminal\MaotawTerminal.vcxproj", "{29E6D829-4A76-4E23-982E-C1F0DB98E829}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MenuSense_Rainbow", "src\MenuSense_Rainbow\MenuSense_Rainbow.vcxproj", "{D03AFD10-5311-478C-A05F-5EF1C6338A85}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "inabooUI", "src\inabooUI\inabooUI.vcxproj", "{329EE6C3-6603-4B5B-BCEF-7C7FDDEAE8A5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "maotaw_ui", "src\maotaw_ui\maotaw_ui.vcxproj", "{C9AE1741-BC81-4BC3-915A-D3AB7B73C748}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "phantom_ui", "src\phantom_ui\phantom_ui.vcxproj", "{6E8D58D1-FED0-4004-81E6-905D0E9F9CC5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "playhookUI", "src\playhookUI\playhookUI.vcxproj", "{9F49ECFE-16DF-49C1-B0A8-B1DB9B3FA06C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "spectraUI", "src\spectraUI\spectraUI.vcxproj", "{F44CC9EB-D7ED-4612-8E33-153CEE980DE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF8146E4-A35A-4B8C-9C52-EA2EECA62C08}.Debug|x64.ActiveCfg = Debug|x64
+		{AF8146E4-A35A-4B8C-9C52-EA2EECA62C08}.Debug|x64.Build.0 = Debug|x64
+		{AF8146E4-A35A-4B8C-9C52-EA2EECA62C08}.Release|x64.ActiveCfg = Release|x64
+		{AF8146E4-A35A-4B8C-9C52-EA2EECA62C08}.Release|x64.Build.0 = Release|x64
+		{29E6D829-4A76-4E23-982E-C1F0DB98E829}.Debug|x64.ActiveCfg = Debug|x64
+		{29E6D829-4A76-4E23-982E-C1F0DB98E829}.Debug|x64.Build.0 = Debug|x64
+		{29E6D829-4A76-4E23-982E-C1F0DB98E829}.Release|x64.ActiveCfg = Release|x64
+		{29E6D829-4A76-4E23-982E-C1F0DB98E829}.Release|x64.Build.0 = Release|x64
+		{D03AFD10-5311-478C-A05F-5EF1C6338A85}.Debug|x64.ActiveCfg = Debug|x64
+		{D03AFD10-5311-478C-A05F-5EF1C6338A85}.Debug|x64.Build.0 = Debug|x64
+		{D03AFD10-5311-478C-A05F-5EF1C6338A85}.Release|x64.ActiveCfg = Release|x64
+		{D03AFD10-5311-478C-A05F-5EF1C6338A85}.Release|x64.Build.0 = Release|x64
+		{329EE6C3-6603-4B5B-BCEF-7C7FDDEAE8A5}.Debug|x64.ActiveCfg = Debug|x64
+		{329EE6C3-6603-4B5B-BCEF-7C7FDDEAE8A5}.Debug|x64.Build.0 = Debug|x64
+		{329EE6C3-6603-4B5B-BCEF-7C7FDDEAE8A5}.Release|x64.ActiveCfg = Release|x64
+		{329EE6C3-6603-4B5B-BCEF-7C7FDDEAE8A5}.Release|x64.Build.0 = Release|x64
+		{C9AE1741-BC81-4BC3-915A-D3AB7B73C748}.Debug|x64.ActiveCfg = Debug|x64
+		{C9AE1741-BC81-4BC3-915A-D3AB7B73C748}.Debug|x64.Build.0 = Debug|x64
+		{C9AE1741-BC81-4BC3-915A-D3AB7B73C748}.Release|x64.ActiveCfg = Release|x64
+		{C9AE1741-BC81-4BC3-915A-D3AB7B73C748}.Release|x64.Build.0 = Release|x64
+		{6E8D58D1-FED0-4004-81E6-905D0E9F9CC5}.Debug|x64.ActiveCfg = Debug|x64
+		{6E8D58D1-FED0-4004-81E6-905D0E9F9CC5}.Debug|x64.Build.0 = Debug|x64
+		{6E8D58D1-FED0-4004-81E6-905D0E9F9CC5}.Release|x64.ActiveCfg = Release|x64
+		{6E8D58D1-FED0-4004-81E6-905D0E9F9CC5}.Release|x64.Build.0 = Release|x64
+		{9F49ECFE-16DF-49C1-B0A8-B1DB9B3FA06C}.Debug|x64.ActiveCfg = Debug|x64
+		{9F49ECFE-16DF-49C1-B0A8-B1DB9B3FA06C}.Debug|x64.Build.0 = Debug|x64
+		{9F49ECFE-16DF-49C1-B0A8-B1DB9B3FA06C}.Release|x64.ActiveCfg = Release|x64
+		{9F49ECFE-16DF-49C1-B0A8-B1DB9B3FA06C}.Release|x64.Build.0 = Release|x64
+		{F44CC9EB-D7ED-4612-8E33-153CEE980DE8}.Debug|x64.ActiveCfg = Debug|x64
+		{F44CC9EB-D7ED-4612-8E33-153CEE980DE8}.Debug|x64.Build.0 = Debug|x64
+		{F44CC9EB-D7ED-4612-8E33-153CEE980DE8}.Release|x64.ActiveCfg = Release|x64
+		{F44CC9EB-D7ED-4612-8E33-153CEE980DE8}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
